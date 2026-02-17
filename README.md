@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# maxlong.me · 个人主页
+
+极简个人主页，Next.js + Tailwind + App Router。移动端优先，适配微信内置浏览器。
+
+## 开发时：改完代码、刷新浏览器就能看到变化
+
+**请用开发模式**，不要用生产模式：
+
+```bash
+npm run dev
+```
+
+然后用浏览器打开 **http://localhost:3000** 或 **http://192.168.31.50:3000**。在 Cursor 里改完代码保存后，到浏览器里**刷新一次**，就会看到最新效果。
+
+> 若用的是 `npm run start`（生产模式），改代码后刷新不会变，必须先 `npm run build` 再重新 `npm run start`。开发阶段请一直用 `npm run dev`。
+
+## 微信二维码
+
+将你的微信二维码图片放到 **`public/wechat.png`**，页面「联系」区块会自动展示。若未放置，会显示占位提示。
 
 ## Getting Started
 
